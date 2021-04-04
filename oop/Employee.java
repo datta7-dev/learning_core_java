@@ -13,5 +13,8 @@ public class Employee extends Abstraction{
 		Employee e=new Employee();
 		e.accept(1,"teacher1");
 		e.display();
+		Employee e1=new Employee();
+		e1.show();
 	}
 }
+
